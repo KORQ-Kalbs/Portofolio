@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Animasi custom */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.float-animation {
+    animation: float 3s ease-in-out infinite;
+}
+
+.delay-100 {
+    animation-delay: 0.1s;
+}
+.delay-200 {
+    animation-delay: 0.2s;
+}
+.delay-300 {
+    animation-delay: 0.3s;
+}
+
+/* Hapus margin dan padding default */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Pastikan container tidak membuat scroll horizontal */
+.container {
+    max-width: 100%;
+    overflow: hidden;
+}
