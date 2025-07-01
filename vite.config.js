@@ -5,7 +5,7 @@ import autoprefixer from "autoprefixer";
 
 export default defineConfig({
     build: {
-        outDir: "dist",
+        outDir: "public/dist",
         manifest: true,
     },
     plugins: [
