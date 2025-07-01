@@ -21,7 +21,7 @@
                     </a>
                 </div>
             </div>
-            <div class="md:w-1/2 flex justify-center">
+            <div class="md:w-1/2 flex justify-center py-8">
                 <div class="relative">
                     <div class="w-64 h-64 md:w-80 md:h-80 bg-blue-600 rounded-full opacity-10 absolute -top-6 -left-6 float-animation"></div>
                     <div class="w-64 h-64 md:w-80 md:h-80 bg-red-400 rounded-full opacity-10 absolute -bottom-6 -right-6 float-animation" style="animation-delay: 1.5s;"></div>
